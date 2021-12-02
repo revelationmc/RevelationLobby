@@ -21,9 +21,7 @@ public class JoinListener implements Listener {
     public void onJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
         String prefix = l.getLuckPerms().getUserManager().getUser(player.getUniqueId()).getCachedData().getMetaData().getPrefix();
-        String newName = prefix.substring(prefix.indexOf("|")+1);
-        String playerName = newName.trim();
-        event.setJoinMessage(ColourUtils.colour("&e" + playerName + "&6 entered the lobby."));
+        event.setJoinMessage(ColourUtils.colour("&b\u00BB\u00BB " + prefix + player.getName() + "&3 entered the lobby."));
         player.playSound(player.getLocation(), Sound.ENTITY_FIREWORK_ROCKET_BLAST, 5, 1);
         player.sendTitle(ColourUtils.colour("&b&lRevelation &3&lNetwork"), ColourUtils.colour("&aNice to see you!"), 30, 40, 30);
         player.setGameMode(GameMode.ADVENTURE);
