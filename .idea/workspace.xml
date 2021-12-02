@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="Added luckperms support">
-      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" afterDir="false" />
+    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="Null prefix check">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TabMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/JoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Lobby.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638470656512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Null prefix check">
+      <created>1638470883562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638470883562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +160,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="a" />
     <MESSAGE value="Added luckperms support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added luckperms support" />
+    <MESSAGE value="Null prefix check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Null prefix check" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1638460609491">
@@ -173,22 +184,22 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1208" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469834133" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1638470638504">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1638470904743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470638504" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1638470638504">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470904743" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1638470904743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470638504" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1638470638503">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470904743" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1638470904743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470638503" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1638470638504">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470904743" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1638470904743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470638504" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470904743" />
     <state x="-1459" y="164" key="SettingsEditor" timestamp="1638469814319">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
@@ -197,10 +208,10 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1036" y="224" key="VCS.ChangeListViewerDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469976833" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1638470657663">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1638470884538">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470657663" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638470884538" />
     <state x="-1155" y="381" width="717" height="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1638469982114">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
