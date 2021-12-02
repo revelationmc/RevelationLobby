@@ -28,10 +28,13 @@ public class JoinListener implements Listener {
         player.sendTitle(ColourUtils.colour("&b&lRevelation &3&lNetwork"), ColourUtils.colour("&aNice to see you!"), 30, 40, 30);
         player.setGameMode(GameMode.ADVENTURE);
         if(prefix != null){
-            player.setPlayerListName(prefix + player.getDisplayName());
+            player.setPlayerListName(ColourUtils.colour(prefix + player.getDisplayName()));
         } else {
-            player.setPlayerListName("&r" + player.getDisplayName());
+            player.setPlayerListName(ColourUtils.colour("&r" + player.getDisplayName()));
         }
+        Bukkit.getOnlinePlayers().forEach(p -> {
+            p.setPlayerListHeaderFooter(ColourUtils.colour("&b&lRevelation &3&lNetwork"), ColourUtils.colour("&a&lIP: &arevelationmc.net"));
+        });
     }
 
 }
