@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="" />
+    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="a">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Lobby.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +72,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21jhi8m0DCdutxm2HqvNmBOcJAD" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -79,6 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,7 +118,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\tswar\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,16 +144,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1638460609491">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="440" y="90" key="#Project_Structure/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638460609491" />
-    <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1638469763037">
+    <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1638469847679">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
-    <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469763037" />
+    <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469847679" />
+    <state x="-1180" y="261" key="FileChooserDialogImpl" timestamp="1638469914855">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1180" y="261" key="FileChooserDialogImpl/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469914855" />
+    <state x="-1099" y="417" key="Github.ShareDialog" timestamp="1638469828860">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1099" y="417" key="Github.ShareDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469828860" />
+    <state x="-1208" y="217" key="Github.UntrackedFilesDialog" timestamp="1638469834133">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1208" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469834133" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1638463584461">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -167,10 +188,26 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1459" y="164" key="SettingsEditor/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469814319" />
+    <state x="-1036" y="224" key="VCS.ChangeListViewerDialog" timestamp="1638469976833">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1036" y="224" key="VCS.ChangeListViewerDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469976833" />
+    <state x="-1155" y="381" width="717" height="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1638469982114">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1155" y="381" width="717" height="278" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469982114" />
     <state x="342" y="126" key="new project wizard" timestamp="1638460840136">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="342" y="126" key="new project wizard/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638460840136" />
+    <state x="-1130" y="310" key="svn.repositoryBrowser" timestamp="1638469877537">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1130" y="310" key="svn.repositoryBrowser/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469877537" />
+    <state x="-1153" y="293" key="svn4idea.import.options" timestamp="1638469875945">
+      <screen x="-1920" y="4" width="1920" height="1032" />
+    </state>
+    <state x="-1153" y="293" key="svn4idea.import.options/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469875945" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

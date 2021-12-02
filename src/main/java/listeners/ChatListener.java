@@ -1,5 +1,6 @@
 package listeners;
 
+import main.Lobby;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -8,10 +9,16 @@ import utils.ColourUtils;
 
 public class ChatListener implements Listener {
 
+    Lobby l;
+    public ChatListener(Lobby l){
+        this.l = l;
+    }
+
     @EventHandler
     public void onChat(AsyncPlayerChatEvent event){
         Player player = event.getPlayer();
-        event.setFormat(ColourUtils.colour(player.getDisplayName() + " &8\u00BB &r" + event.getMessage()));
+        String prefix = l.getLuckPerms().getUserManager().getUser(player.getUniqueId()).getCachedData().getMetaData().getPrefix();
+        event.setFormat(ColourUtils.colour(prefix + player.getDisplayName() + " &8\u00BB &r" + event.getMessage()));
     }
 
 }
