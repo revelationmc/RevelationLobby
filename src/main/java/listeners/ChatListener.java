@@ -18,7 +18,11 @@ public class ChatListener implements Listener {
     public void onChat(AsyncPlayerChatEvent event){
         Player player = event.getPlayer();
         String prefix = l.getLuckPerms().getUserManager().getUser(player.getUniqueId()).getCachedData().getMetaData().getPrefix();
-        event.setFormat(ColourUtils.colour(prefix + player.getDisplayName() + " &8\u00BB &r" + event.getMessage()));
+        if(prefix != null){
+            event.setFormat(ColourUtils.colour(prefix + player.getDisplayName() + " &8\u00BB &r" + event.getMessage()));
+        } else {
+            event.setFormat(ColourUtils.colour("&r" + player.getDisplayName() + " &8\u00BB &r" + event.getMessage()));
+        }
     }
 
 }
