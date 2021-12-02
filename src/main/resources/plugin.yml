@@ -1,0 +1,4 @@
+name: RevelationLobby
+main: main.Lobby
+version: 1.0
+api-version: 1.13
