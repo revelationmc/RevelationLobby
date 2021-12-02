@@ -1,7 +1,6 @@
 package main;
 
 import listeners.*;
-import managers.GunManager;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import org.bukkit.Bukkit;
@@ -18,7 +17,6 @@ public class Lobby extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new ChatListener(this), this);
         Bukkit.getPluginManager().registerEvents(new QuitListener(this), this);
         Bukkit.getPluginManager().registerEvents(new HungerListener(), this);
-        Bukkit.getPluginManager().registerEvents(new GunManager(this), this);
         Bukkit.getPluginManager().registerEvents(new InvListener(), this);
         Bukkit.getOnlinePlayers().forEach(player -> {
            player.setPlayerListHeaderFooter(ColourUtils.colour("&b&lRevelation &3&lNetwork"), ColourUtils.colour("&a&lIP: &arevelationmc.net"));
