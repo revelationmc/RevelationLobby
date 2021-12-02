@@ -9,11 +9,13 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Snowball;
 import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
 import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import utils.ColourUtils;
 
 public class GunManager implements Listener {
 
@@ -26,7 +28,7 @@ public class GunManager implements Listener {
     public void giveGun(Player p){
         Inventory inv = p.getInventory();
         ItemMeta meta = gun.getItemMeta();
-        meta.setDisplayName("&b&lLobby Gun");
+        meta.setDisplayName(ColourUtils.colour("&b&lLobby Gun"));
         meta.setUnbreakable(true);
         gun.setItemMeta(meta);
         inv.setItem(2, gun);
@@ -35,17 +37,20 @@ public class GunManager implements Listener {
     public void onGunShoot(PlayerInteractEvent event){
         Player player = event.getPlayer();
         Inventory inv = player.getInventory();
-        if(player.getItemOnCursor() == gun){
-            player.launchProjectile(Snowball.class);
-            player.launchProjectile(Snowball.class);
-            Bukkit.getScheduler().scheduleSyncDelayedTask(l, () -> {
-                player.getItemOnCursor().setType(Material.BARRIER);
-            }, 0L);
-            Bukkit.getScheduler().scheduleSyncDelayedTask(l, () -> {
-                inv.getItem(2).setType(gun.getType());
-                inv.getItem(2).setItemMeta(gun.getItemMeta());
-            }, 60L);
-        } return;
+        if(event.getAction() == Action.LEFT_CLICK_AIR || event.getAction() == Action.LEFT_CLICK_BLOCK ||
+        event.getAction() == Action.RIGHT_CLICK_BLOCK || event.getAction() == Action.RIGHT_CLICK_AIR){
+            if(player.getItemOnCursor() == gun){
+                player.launchProjectile(Snowball.class);
+                player.launchProjectile(Snowball.class);
+                Bukkit.getScheduler().scheduleSyncDelayedTask(l, () -> {
+                    player.getItemOnCursor().setType(Material.BARRIER);
+                }, 0L);
+                Bukkit.getScheduler().scheduleSyncDelayedTask(l, () -> {
+                    inv.getItem(2).setType(gun.getType());
+                    inv.getItem(2).setItemMeta(gun.getItemMeta());
+                }, 60L);
+            } return;
+        }
     }
 
     public void onSnowballHit(ProjectileHitEvent event){

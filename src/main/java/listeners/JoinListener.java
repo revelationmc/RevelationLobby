@@ -1,6 +1,7 @@
 package listeners;
 
 import main.Lobby;
+import managers.GunManager;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Sound;
@@ -13,13 +14,16 @@ import utils.ColourUtils;
 public class JoinListener implements Listener {
 
     Lobby l;
+    GunManager gm;
     public JoinListener(Lobby l){
         this.l = l;
+        gm = new GunManager(l);
     }
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
+        gm.giveGun(player);
         String prefix = l.getLuckPerms().getUserManager().getUser(player.getUniqueId()).getCachedData().getMetaData().getPrefix();
         event.setJoinMessage(ColourUtils.colour("&b\u00BB\u00BB " + prefix + player.getName() + "&3 entered the lobby."));
         player.playSound(player.getLocation(), Sound.ENTITY_FIREWORK_ROCKET_BLAST, 5, 1);
