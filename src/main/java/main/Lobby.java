@@ -1,5 +1,6 @@
 package main;
 
+import commands.GamemodeCommand;
 import listeners.*;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
@@ -18,6 +19,7 @@ public class Lobby extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new QuitListener(this), this);
         Bukkit.getPluginManager().registerEvents(new HungerListener(), this);
         Bukkit.getPluginManager().registerEvents(new InvListener(), this);
+        Bukkit.getPluginCommand("gamemode").setExecutor(new GamemodeCommand());
         Bukkit.getOnlinePlayers().forEach(player -> {
            player.setPlayerListHeaderFooter(ColourUtils.colour("&b&lRevelation &3&lNetwork"), ColourUtils.colour("&a&lIP: &arevelationmc.net"));
         });

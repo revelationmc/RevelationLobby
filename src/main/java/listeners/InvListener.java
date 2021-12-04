@@ -8,7 +8,9 @@ public class InvListener implements Listener {
 
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event){
-        event.setCancelled(true);
+        if(!event.getWhoClicked().isOp() || !event.getWhoClicked().hasPermission("lobby.bypass")){
+            event.setCancelled(true);
+        }
     }
 
 }
