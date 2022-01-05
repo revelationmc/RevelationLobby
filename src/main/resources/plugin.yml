@@ -8,3 +8,9 @@ commands:
       - gm
     permission-message: "&cNo."
     permission: lobby.gamemode
+  holo:
+    aliases:
+      - hologram
+      - hd
+    permission-message: "&cNo"
+    permission: lobby.holograms
