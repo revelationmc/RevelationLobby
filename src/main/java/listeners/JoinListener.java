@@ -13,7 +13,7 @@ import utils.ColourUtils;
 public class JoinListener implements Listener {
 
     Lobby l;
-    public JoinListener(Lobby l){
+    public JoinListener(Lobby l) {
         this.l = l;
     }
 
