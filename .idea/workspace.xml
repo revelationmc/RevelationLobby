@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="Gamemode Command">
+    <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="Small tweaks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/SpeedCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/ChatListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/GamemodeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/GamemodeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Lobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641408885091</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Small tweaks">
+      <created>1642086748498</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642086748498</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,17 +239,18 @@
     <MESSAGE value="Gamemode Command" />
     <MESSAGE value="Test Commit for Github" />
     <MESSAGE value="Test Commit for Discord" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Commit for Discord" />
+    <MESSAGE value="Small tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1638460609491">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="440" y="90" key="#Project_Structure/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638460609491" />
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1638654168803">
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1642087130407">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638654168803" />
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642087130407" />
     <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1638469847679">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
@@ -285,10 +296,14 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1036" y="224" key="VCS.ChangeListViewerDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469976833" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1641408887303">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1642086750322">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1641408887303" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642086750322" />
+    <state x="667" y="220" width="585" height="592" key="find.popup" timestamp="1642087213759">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="667" y="220" width="585" height="592" key="find.popup/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642087213759" />
     <state x="-1155" y="381" width="717" height="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1638469982114">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>

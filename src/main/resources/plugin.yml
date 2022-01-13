@@ -14,3 +14,8 @@ commands:
       - hd
     permission-message: "&cNo"
     permission: lobby.holograms
+  speed:
+    aliases:
+      - sp
+    permission-message: "&cNo."
+    permission: lobby.speed
