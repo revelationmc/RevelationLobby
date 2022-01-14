@@ -17,13 +17,17 @@ public class SpeedCommand implements CommandExecutor {
             return true;
         }
         if(args.length == 1){
-            if(p.isFlying()){
-                p.setFlySpeed((float) speed/10);
-                p.sendMessage(ColourUtils.colour("&b&lLobby &8\u00BB&3 Your speed was set to &b" + speed));
-                return true;
+            if(speed > 10 || speed < 0){
+                p.sendMessage(ColourUtils.colour("&b&lLobby &8\u00BB&3 Speed must be a number between 1 and 10."));
             } else {
-                p.setWalkSpeed((float) speed/10);
-                p.sendMessage(ColourUtils.colour("&b&lLobby &8\u00BB&3 Your speed was set to &b" + speed));
+                if(p.isFlying()){
+                    p.setFlySpeed((float) speed/10);
+                    p.sendMessage(ColourUtils.colour("&b&lLobby &8\u00BB&3 Your speed was set to &b" + speed));
+                    return true;
+                } else {
+                    p.setWalkSpeed((float) speed/10);
+                    p.sendMessage(ColourUtils.colour("&b&lLobby &8\u00BB&3 Your speed was set to &b" + speed));
+                }
             }
         }
         return false;
