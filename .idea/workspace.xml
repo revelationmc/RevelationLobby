@@ -11,7 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9c0062f-1a70-4bb9-92d5-e385774d45c6" name="Default Changelist" comment="Speed command addition&#10;Gamemode command tweaks">
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/SpeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/SpeedCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +42,33 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/build.gradle">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="build.gradle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="build.gradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="build.gradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="build.gradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="RevelationLobby" type="f1a62948:ProjectNode" />
@@ -49,6 +83,36 @@
                 <item name="RevelationLobby" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RevelationLobby" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RevelationLobby" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RevelationLobby" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RevelationLobby" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RevelationLobby" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -81,7 +145,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/PunishManager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -222,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642090128649</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="a">
+      <created>1642182111900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642182111900</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +310,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="a" />
     <MESSAGE value="Added luckperms support" />
     <MESSAGE value="Null prefix check" />
     <MESSAGE value="Minor things" />
@@ -252,7 +322,8 @@
     <MESSAGE value="Small tweaks" />
     <MESSAGE value="Speed command addition&#10;Gamemode command tweaks" />
     <MESSAGE value="Speed error fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speed error fix" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1638460609491">
@@ -263,19 +334,20 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642087130407" />
-    <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1638469847679">
-      <screen x="-1920" y="4" width="1920" height="1032" />
+    <state x="693" y="204" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642432612466">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="-1227" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469847679" />
+    <state x="693" y="204" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432612466" />
     <state x="690" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638477999382">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638477999382" />
-    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1638633425015">
+    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1642432664522">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="261" key="FileChooserDialogImpl/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469914855" />
-    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1638633425015" />
+    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432664522" />
     <state x="-1099" y="417" key="Github.ShareDialog" timestamp="1638469828860">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
@@ -284,22 +356,22 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1208" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469834133" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1642092195113">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1642432865567">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642092195113" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1642092195113">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432865567" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1642432865567">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642092195113" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1642092195113">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432865567" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1642432865567">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642092195113" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1642092195113">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432865567" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1642432865567">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642092195113" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642432865567" />
     <state x="-1459" y="164" key="SettingsEditor" timestamp="1638469814319">
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
@@ -308,10 +380,10 @@
       <screen x="-1920" y="4" width="1920" height="1032" />
     </state>
     <state x="-1036" y="224" key="VCS.ChangeListViewerDialog/0.0.1920.1032/-1920.4.1920.1032@-1920.4.1920.1032" timestamp="1638469976833" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1642090130203">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1642182113092">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642090130203" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.4.1920.1032@0.0.1920.1032" timestamp="1642182113092" />
     <state x="667" y="220" width="585" height="592" key="find.popup" timestamp="1642087213759">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
